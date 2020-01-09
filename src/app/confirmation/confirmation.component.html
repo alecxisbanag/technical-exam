@@ -1,0 +1,21 @@
+<div class="main-container">
+  <div class="container">
+
+    <div class="row">
+       <div class="col s12 m6 offset-m3">
+         <ul class="list-group-flush">
+          <li class="list-group-item"><span class="font-weight-bold">Name: </span>{{ userDetails.fullname }} </li>
+          <li class="list-group-item"><span class="font-weight-bold">CPU Brand: </span>{{ userDetails.cpu.brand }} </li>
+          <li class="list-group-item"><span class="font-weight-bold">CPU Series: </span>{{ userDetails.cpu.series }} </li>
+          <li class="list-group-item"><span class="font-weight-bold">CPU Model: </span>{{ userDetails.cpu.model}} </li>
+         </ul>
+       </div>
+    </div>
+
+    <div class="row">
+      <div class="col s12 center-align">
+        <button class="btn btn-secondary" (click)="goBackToHome()">Go back to home page</button>
+      </div>
+    </div>
+  </div>
+</div>
